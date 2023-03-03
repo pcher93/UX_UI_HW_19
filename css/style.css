@@ -1,0 +1,1340 @@
+/* Homepage */
+
+/* Header */
+Body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    font-style: medium;
+    font-weight: 500;
+    color: #222E4A; 
+    padding-top: 60px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fixed-header {
+    background-color: #F6EEE5;
+    border-bottom-style: solid;
+    border-bottom-color: #CDA5AD;
+    position: fixed;      
+    color: #222E4A; 
+    width: 100%;
+    height: 126px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    text-align: right;
+}
+
+.container img {
+    position: absolute;
+    width: 126px;
+    height: 73px;
+    top: 50px;
+    left: 120px;
+    bottom: 5px;
+  }
+
+
+
+nav a{
+    position: relative;
+    color: #222E4A;
+    text-decoration: none;
+    display: inline-block;
+    padding: 75px 45px;
+    font-size: 24px;
+
+   
+}
+
+nav a:hover {
+    background-image: url(/images/ltpk_rectangle.png);
+    background-size: 225px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    width: fit-content;
+    filter: drop-shadow(0px 3.30371px 3.30371px #F2D8CE);
+
+  }
+
+nav a:active {
+    background-image: url(/images/dk_pk_rectangle.png);
+    background-size: 225px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    filter: drop-shadow(0px 3.30371px 3.30371px #CDA5AD);
+
+  }
+
+/* hero section */
+.heroBackground {
+    background-image: url(../images/hero_print_repeat.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    height: 100vh;
+}
+
+
+.left img{
+    display: flex;
+    position: absolute;
+    width: 732px;
+    height: 263px;
+    left: 246px;
+    top: 282px;
+}
+
+/* Download CV */
+
+.leftbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    position: absolute;
+    width: 203px;
+    height: 56px;
+    left: 280px;
+    top: 545px;
+
+    background: #222E4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30.53px;
+    
+    font-family: 'Quicksand';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    color: #F6EEE5;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.leftbutton:hover {
+    background: #CDA5AD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30.53px;
+
+}
+
+.leftbutton:active {
+    background: #F2B872;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30.53px;
+
+}
+    
+
+/* image of self*/
+
+.right img{
+    position: absolute;
+    width: 604.58px;
+    height: 621px;
+    left: 1002px;
+    top: 131px;
+    
+    filter: drop-shadow(0px 3.30371px 3.30371px rgba(0, 0, 0, 0.25));
+    }
+
+/* card styles*/
+.projects {
+    position: relative;
+    display: flex;
+    width: 1728px;
+    height: 2099px;
+    left: -8px;
+    margin-top: 695px;
+    background-color: #F6EEE5;
+    
+}
+
+.projects img {
+    position: absolute;
+    width: 469px;
+    height: 102px;
+    left: 123.56px;
+    top: 36px;
+}
+
+.sectionHeading {
+    position: absolute;
+    width: 276px;
+    height: 110px;
+    left: 225px;
+    top: -70px;
+
+    font-family: 'Cheddar Jack';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 136px;
+    line-height: 136px;
+    display: flex;
+    align-items: center;
+
+    color: #222E4A;
+
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+.allprojects {
+    box-sizing: border-box;
+    position: absolute;
+    width: 994px;
+    left: 363px;
+    top: 200px;
+    
+    
+}
+
+.project1 {
+    background: #CDA5AD;
+    border: 0.787639px solid #222E4A;
+    box-shadow: 7.87639px 7.87639px 6.30111px rgba(0, 0, 0, 0.5);
+    margin-top:20px;
+    height: 525.36px;
+
+}
+
+.project2 {
+    background: #F2D8CE;
+    border: 0.787639px solid #222E4A;
+    box-shadow: 7.87639px 7.87639px 6.30111px rgba(0, 0, 0, 0.5);
+    margin-top:80px;
+    height: 525.36px;
+
+}
+
+.project3 {
+    background: #D29431;
+    border: 0.787639px solid #222E4A;
+    box-shadow: 7.87639px 7.87639px 6.30111px rgba(0, 0, 0, 0.5);
+    margin-top:80px;
+    height: 525.36px;
+
+}
+
+
+
+.card-title {
+    width: 407.5px;
+    height: 75px;
+    font-family: 'Caveat Brush', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    margin-bottom: 0px;
+    color: #222E4A;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-top: 100px;
+    padding-left: 50px;
+
+}
+
+.card-text {
+    width: 407.5px;
+    height: 135px;
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom: 24px;
+
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #222E4A;
+
+}
+
+/* View Project */
+.button {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    
+    width: 133.41px;
+    height: 44.35px;
+    color: #222E4A;
+    
+    background: #F6EEE5;
+    box-shadow: 0px 3.15055px 3.15055px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.button:hover {
+    background: #222E4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30.53px;
+    color: #F6EEE5;
+
+}
+
+.button:active {
+    background: #F2B872;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30.53px;
+
+}
+
+.project1 img {
+    position: absolute;
+    justify-content: right;
+    width: 497px;
+    height: 525.6px;
+    left: 497px;
+    top: 20.5px; 
+
+}
+
+.project2 img {
+    position: absolute;
+    justify-content: right;
+    width: 497px;
+    height: 526px;
+    left: 497px;
+    top: 626px; 
+
+}
+
+.project3 img {
+    position: absolute;
+    justify-content: right;
+    width: 497px;
+    height: 526px;
+    left: 497px;
+    top: 1233px; 
+
+}
+
+
+/* about me */
+.flexContainer0 {
+    position: relative;
+    display: flex;
+    background-image: url(../images/BG-Hmong.png);
+    background-repeat: repeat;
+    width: 100%;
+    margin-left: -10px;
+    height:2200px; 
+    top: -90px;
+    overflow: hidden;
+
+}
+
+.headerBckgnd {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 102px;
+    left: 300px;
+    top: 80px;
+    justify-content: center;
+    text-align: center;
+    
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+    transform: rotate(2.5deg);
+}
+
+.sectionLabel {
+    position: absolute;
+    width: 306px;
+    height: 102px;
+    left: -100px;
+    top: -140px;
+    
+
+    font-family: 'Cheddar Jack';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 136px;
+    line-height: 136px;
+
+    color: #222E4A;
+
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.rightMe img{
+    position: absolute;
+    width: 436.06px;
+    height: 492.12px;
+    left: 1116.64px;
+    top: 200px;
+
+    background: url("about me photo.png");
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+    transform: rotate(6.84deg);
+}
+
+.ivryBox img {
+    display: flex;
+    width: 858px;
+    height: 380px;
+    margin-left: 120px;
+    margin-top: 234px;
+    
+
+    filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
+}
+
+.Intro {
+    position: absolute;
+    display: flex;
+    width: 650px;
+    height: 340px;
+    left: 235px;
+    top: 280px;
+
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #222E4A;
+}
+
+/* skills */
+
+.headerBckgnd0 {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 102px;
+    left: 300px;
+    top: 850px;
+    justify-content: center;
+    text-align: center;
+    
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+    transform: rotate(2.5deg);
+}
+
+.sectionLabel2 {
+    position: absolute;
+    width: 306px;
+    height: 102px;
+    left: -100px;
+    top: -130px;
+    
+
+    font-family: 'Cheddar Jack';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 136px;
+    line-height: 136px;
+
+    color: #222E4A;
+
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+/* tech skills */
+.pkBox {
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 90px;
+    left: 400px;
+    top: 1000px;
+    justify-content: center;
+    text-align: center;
+    
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+    transform: rotate(2.5deg);
+}
+
+.sectionLabel3 {
+    position: absolute;
+    width: 323px;
+    height: 76px;
+    left: 290px;
+    top: 960px;
+    
+    font-family: 'Caveat Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 76px;
+    
+    color: #222E4A;
+}
+
+.row {
+    display: flex;
+    position: absolute;
+    top: 1000px;
+    left: 227px;
+  }
+  
+  .column {
+    flex: 20%;
+  }
+  
+  .alternate {
+    position: absolute;
+	list-style:none;
+	outline:none;
+    display:flex;
+	font-weight: 400;
+	width: 50px;
+    left: 200px;
+    top: 1100px;
+
+}
+
+li {
+    flex-grow:1;
+    flex-basis:0;
+    margin-right: -275px;
+   
+
+}
+    
+    
+ li img {
+        width: 200px;
+       
+       
+        }
+li p {
+        top: -25px;
+        left: -170px;
+        }
+
+/* programs */
+.gdBox {
+            position: absolute;
+            display: flex;
+            width: 100px;
+            height: 90px;
+            left: 400px;
+            top: 1400px;
+            justify-content: center;
+        
+            
+            filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+            transform: rotate(2.5deg);
+        }
+ .sectionLabel4 {
+            position: absolute;
+            width: 323px;
+            height: 76px;
+            left: 290px;
+            top: 1360px;
+            
+            font-family: 'Caveat Brush';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 76px;
+            text-align: center;
+            
+            color: #222E4A;
+        }
+ .ivryBox2 img {
+    position: absolute;
+            display: flex;
+            width: 515px;
+            height: 380px;
+            top: 1500px;
+            left: 200px;
+            filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
+        }
+.Programs {
+            position: absolute;
+            list-style:none;
+            outline:none;
+            display:flex;
+            font-weight: 400;
+            width: 50px;
+            left: 200px;
+            top: 1100px;
+        
+        }
+    
+            
+            
+.Programs img {
+    top: 450px;
+    left: 250px;
+    width:170px;
+    height: 276px;
+               
+               
+                }
+.Programs p {
+                top: 415px;
+                left: 80px;
+                text-align: left;
+                line-height:60px;
+                font-size: 24px;
+
+                }
+
+/* soft skills */              
+.dpBox img {
+ position: absolute;
+display: flex;
+ width: 450px;
+ height: 90px;
+ left: 1000px;
+top: 1400px;
+filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+transform: rotate(2.5deg);
+
+}
+
+.sectionLabel5 {
+     position: absolute;
+    width: 323px;
+     height: 76px;
+     top: 1360px;
+    font-family: 'Caveat Brush';
+     font-style: normal;
+      font-weight: 400;
+     font-size: 60px;
+     line-height: 76px;
+     right: 275px;
+                    
+     color: #222E4A;
+}
+        
+.ivryBox3 img {
+            position: absolute;
+            display: flex;
+             width: 515px;
+           height: 380px;
+             top: 1500px;
+            left: 1000px;
+            filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
+ }
+       
+ .softSk {
+    position: relative;
+    top: 1525px;
+    left: 80px;
+    text-align: left;
+    line-height:25px;
+   font-size: 24px;
+                
+  }
+
+/* project page */
+
+.v18_556 {
+    width: 100%;
+    height: 5200px;
+    opacity: 1;
+    position: relative;
+    top: -100px;
+    left: -10px;
+    margin-bottom: -270px;
+    overflow: hidden;
+  }
+  
+  .flexContainer {
+    position: absolute;
+      display: flex;
+      background-image: url("../images/BG-Hmong.png");
+      background-repeat: repeat;
+      width: 100%;
+      margin-left: -10px;
+      height:5200px; 
+      margin-top: 0px;
+      overflow: hidden;
+  }
+  
+  /* roomstyler intro */
+  .sectionLabel6 {
+    width: 424px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 50px;
+    left: 169px;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
+    font-family: Cheddar Jack;
+    font-weight: Regular;
+    font-size: 136px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .headerBckgnd2 img{
+    position: absolute;
+  width: 469px;
+  height: 102px;
+  left: 122.6px;
+  top: 70px;
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  transform: rotate(2.64deg);
+  }
+  
+  .c-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "thumb content";
+    grid-gap: 100px;
+    background-image: url("../images/BG-Hmong.png");
+    background-repeat: repeat;
+    margin-left: -8px;
+    margin-top: -85px;
+    
+  }
+  
+  .c-media.flipped {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "content thumb";
+    
+  }
+  .c-media__thumb {
+    grid-area: thumb;
+    display: grid;
+    width: 294px;
+    margin-top: 100px;
+    right: 10px;
+  }
+  
+  .c-media__Project1 {
+    grid-area: content;
+    display: grid;
+   
+  }
+  
+  .ivryBox5 img{
+    display: grid;
+    width: 904px;
+    height: 447px;
+    margin-left: 200px;
+    margin-top: 200px;
+    filter: drop-shadow(4.00935px 4.00935px 4.00935px rgba(0, 0, 0, 0.5));
+  }
+  
+  .recap {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+  }
+  
+  .recap2 {
+    position: absolute;
+    top: 300px;
+    left: 750px;
+  }
+  .v32_79 {
+    width: 289px;
+    height: 623px;
+    background: url("/images/RS_splash_screen.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 289px;
+    left: 1284px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
+  
+  /* roomstyler problem */
+  
+  .headerBckgnd3 img{
+    position: absolute;
+    display: grid;
+    width: 469px;
+    height: 68px;
+    left: 120px;
+    top: 790px;
+    transform: rotate(2.64deg);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v18_568 {
+    width: 334px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 892px;
+    left: 188px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v34_80 {
+    width: 292px;
+    height: 619px;
+    background: url("../images/RS_coach_screen.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 1000px;
+    left: 246px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
+  .ivryBox6 img{
+    display: flex;
+    position: absolute;
+  width: 904px;
+  height: 500px;
+  left: 600px;
+  top: 1060px;
+  transform: scaleX(-1);
+  filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+  }
+  
+  .headerBckgnd4 img{
+    position: absolute;
+    width: 450px;
+    height: 68px;
+    left: 650px;
+    top: 1020px;
+    transform: rotate(2.64deg);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v34_99 {
+    width: 756px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 1201px;
+    left: 661px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v34_100 {
+    width: 368px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 1117px;
+    left: 682px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .headerBckgnd5 img{
+    position: absolute;
+    width: 469px;
+    height: 68px;
+    left: 650px;
+    top: 1230px;
+    transform: rotate(2.64deg);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v34_101 {
+    width: 421px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 1328px;
+    left: 680px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v34_106 {
+    width: 756px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 1413px;
+    left: 661px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  /* roomstyler research */
+  
+  .headerBckgnd6 img{
+    position: absolute;
+    width: 469px;
+    height: 68px;
+    left: 122px;
+    top: 1594px;
+    transform: rotate(2.64deg);
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  .v18_569 {
+    width: 252px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 1694px;
+    left: 222px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .ivryBox7 img{
+    position: absolute;
+    width: 606px;
+    height: 700px;
+    left: 240px;
+    top: 1680px;
+    filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v34_116 {
+    position: absolute;
+  width: 518px;
+  height: 347px;
+  left: 290px;
+  top: 1860px;
+  
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  
+  color: #222E4A;
+  }
+  
+  .v34_116 img {
+    position: absolute;
+  width: 455px;
+  height: 176px;
+  left: 30px;
+  top: 350px;
+  
+  }
+  
+  .v34_107 {
+    width: 732px;
+    height: 438px;
+    background: url("../images/RS_affinity_diagram.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    display: grid;
+    top: 1890px;
+    left: 876px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
+  
+  /* roomstyler define */
+  .headerBckgnd7 img{
+    position: absolute;
+  width: 469px;
+  height: 68px;
+  left: 122px;
+  top: 2455px;
+  transform: rotate(2.64deg);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v18_591 {
+    width: 276px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 2555px;
+    left: 219px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .ivryBox8 img{
+    position: absolute;
+    display: flex;
+  width: 1341px;
+  height: 550px;
+  left: 219px;
+  top: 2630px;
+  filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+  transform: scaleX(-1) rotateY(5 deg);
+  
+  }
+  
+  .v38_180 {
+    width: 100%;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 2680px;
+    left: 290px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v42_505 {
+    width: 373px;
+    height: 214px;
+    background: url("../images/RS_persona.jpg");
+    background-size: 373px ;
+    opacity: 1;
+    position: absolute;
+    top: 3191px;
+    left: 119px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .v42_506 {
+    width: 342px;
+    height: 214px;
+    background: url("../images/RS_ideation.jpg");
+    background-repeat: no-repeat;
+    background-size: 670px ;
+    background-position-y: center;
+    opacity: 1;
+    position: absolute;
+    top: 3191px;
+    left: 511px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .v42_507 {
+    width: 344px;
+    height: 214px;
+    background: url("../images/RS_FeaturePrioritizationMatrix.jpg");
+    background-repeat: no-repeat;
+    background-size: 344px ;
+    background-position-y: center;
+    opacity: 1;
+    position: absolute;
+    top: 3191px;
+    left: 872px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .v42_508 {
+    width: 373px;
+    height: 214px;
+    background: url("../images/RS_userjourney.png");
+    background-repeat: no-repeat;
+    background-size: 373px ;
+    background-position-y: center;
+    opacity: 1;
+    position: absolute;
+    top: 3191px;
+    left: 1235px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* roomstyler prototype */
+  
+  .headerBckgnd8 img{
+    position: absolute;
+    width: 469px;
+    height: 68px;
+    left: 120px;
+    top: 3400px;
+  transform: rotate(2.64deg);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v38_174 {
+    width: 213px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 3497px;
+    left: 248px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  
+  .v38_176 {
+    width: 354px;
+    height: 267px;
+    background: url("../images/RS_lofi_sketches.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3590px;
+    left: 246px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .v38_177 {
+    width: 354px;
+    height: 304px;
+    background: url("../images/RS_midfi_mockup.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 3828px;
+    left: 498px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
+  .ivryBox9 img{
+    position: absolute;
+    width: 662px;
+    height: 260px;
+    left: 850px;
+    top: 3630px;
+    
+    filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+    transform: rotate(-180deg);
+  
+  }
+  .v38_187 {
+    width: 606px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 3665px;
+    left: 900px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  /* roomstyler usability */
+  .headerBckgnd9 img{
+    position: absolute;
+    display: flex;
+    width: 469px;
+  height: 68px;
+  left: 120px;
+  top: 4115px;
+  transform: rotate(2.64deg);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  .v38_191 {
+    width: 298px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 4212px;
+    left: 188px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .ivryBox10 img{
+    position: absolute;
+    width: 670px;
+    height: 393px;
+    left: 220px;
+    top: 4300px;
+    filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+    transform: rotate(2.64deg);
+  
+  
+  }
+  .v38_195 {
+    width: 606px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 4330px;
+    left: 270px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v38_196 {
+    width: 296px;
+    height: 223px;
+    background: url("../images/RS_cdm_interview.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4453px;
+    left: 900px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .v38_199 {
+    width: 296px;
+    height: 223px;
+    background: url("../images/RS_tinainterview.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4306px;
+    left: 1104px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .v38_200 {
+    width: 296px;
+    height: 223px;
+    background: url("../images/RS_pcinterview.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4453px;
+    left: 1312px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  
+  /* roomstyler takeaways */
+  .headerBckgnd10 img{
+    width: 450px;
+    height: 68px;
+    left: 120px;
+    top: 4650px;
+  transform: rotate(2.64deg);
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  .v38_203 {
+    width: 252px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 4756px;
+    left: 220px;
+    font-family: Caveat Brush;
+    font-weight: Regular;
+    font-size: 50px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .ivryBox11 img{
+    position: absolute;
+    display: grid;
+    width: 780px;
+  height: 188px;
+  left: 240px;
+  top: 4835px;
+    filter: drop-shadow(2.83787px 2.83787px 2.83787px rgba(0, 0, 0, 0.5));
+    transform: scaleX(1);
+  
+  }
+  
+  .v38_207 {
+    width: 764px;
+    color: rgba(34,46,74,1);
+    position: absolute;
+    top: 4835px;
+    left: 270px;
+    font-family: Quicksand;
+    font-weight: Medium;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 1;
+    text-align: left;
+    list-style-position: inside;
+  
+  }
+
+/* footer*/
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 385px;   
+    background: #CDA5AD;
+    text-align: center; 
+    overflow: hidden;
+    margin-top: -90px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+   
+}
+
+.footerConnect img{
+    position: relative;
+    left: 80px;
+    top: 24px;
+}
+ 
+.footerLinks img {
+    position: relative;
+    float: left;
+    padding: 5px;
+    top: 14px;
+    left: 830px;
+}
+
+
+/* Copyright © 2023 phdesigns. All Rights Reserved. */
+
+p {
+    position: relative;
+    width: 553px;
+    height: 30px;
+    left: 450px;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #222E4A;
+
+}
+
