@@ -1,5 +1,7 @@
 /* Homepage */
+@import url(//db.onlinewebfonts.com/c/862c83306ca682ad1bbc1e66410f108e?family=Cheddar+Jack);
 
+@font-face {font-family: "Cheddar Jack"; src: url("//db.onlinewebfonts.com/t/862c83306ca682ad1bbc1e66410f108e.eot"); src: url("//db.onlinewebfonts.com/t/862c83306ca682ad1bbc1e66410f108e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/862c83306ca682ad1bbc1e66410f108e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/862c83306ca682ad1bbc1e66410f108e.woff") format("woff"), url("//db.onlinewebfonts.com/t/862c83306ca682ad1bbc1e66410f108e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/862c83306ca682ad1bbc1e66410f108e.svg#Cheddar Jack") format("svg"); }
 /* Header */
 Body {
     display: flex;
@@ -42,36 +44,42 @@ Body {
   }
 
 
-
 nav a{
     position: relative;
     color: #222E4A;
     text-decoration: none;
     display: inline-block;
-    padding: 75px 45px;
+    padding:72px 45px;
     font-size: 24px;
+    line-height: 30px;
 
-   
 }
 
-nav a:hover {
-    background-image: url(/images/ltpk_rectangle.png);
-    background-size: 225px;
-    background-repeat: no-repeat;
-    padding: 15px;
-    width: fit-content;
-    filter: drop-shadow(0px 3.30371px 3.30371px #F2D8CE);
+nav a:hover{
+  position: relative;
+  background-color: #F2D8CE;
+  padding:20px 45px;
+  text-decoration: underline;
 
-  }
+
+}
 
 nav a:active {
-    background-image: url(/images/dk_pk_rectangle.png);
-    background-size: 225px;
-    background-repeat: no-repeat;
-    padding: 15px;
-    filter: drop-shadow(0px 3.30371px 3.30371px #CDA5AD);
+  position: relative;
+  background-color: #D29431;
+  padding:20px 45px;
+  text-decoration: underline;
 
   }
+
+
+
+  [aria-pressed="true"] {
+          background-color: #CDA5AD;
+          padding:20px 45px;
+  text-decoration: underline;
+
+    }
 
 /* hero section */
 .heroBackground {
@@ -176,7 +184,7 @@ nav a:active {
     left: 225px;
     top: -70px;
 
-    font-family: 'cheddar-jack-regular', sans-serif;
+    font-family: "Cheddar Jack",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 136px;
@@ -343,8 +351,7 @@ nav a:active {
     display: flex;
     background-image: url(../images/BG-Hmong.png);
     background-repeat: repeat;
-    width: 100%;
-    margin-left: -10px;
+    width: 1728px;
     height:2200px; 
     top: -90px;
     overflow: hidden;
@@ -373,7 +380,7 @@ nav a:active {
     top: -140px;
     
 
-    font-family: 'Cheddar Jack', sans-serif;
+    font-family: "Cheddar Jack",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 136px;
@@ -445,11 +452,12 @@ nav a:active {
     position: absolute;
     width: 306px;
     height: 102px;
-    left: -100px;
+    left: -150px;
     top: -130px;
-    
+    width: 424px;
 
-    font-family: 'cheddar-jack-regular', sans-serif;
+    color: rgba(34,46,74,1);
+    font-family: "Cheddar Jack",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 136px;
@@ -684,8 +692,8 @@ transform: rotate(2.5deg);
     top: 50px;
     left: 169px;
     text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.25);
-font-family: 'cheddar-jack-regular', sans-serif;
-font-weight: Regular;
+    font-family: "Cheddar Jack",sans-serif;
+    font-style: normal;
     font-size: 136px;
     opacity: 1;
     text-align: left;
@@ -1495,7 +1503,7 @@ top: 550px;
 
 footer {
     position: relative;
-    width: 100%;
+    width: 1728px;
     height: 385px;   
     background: #CDA5AD;
     text-align: center; 
